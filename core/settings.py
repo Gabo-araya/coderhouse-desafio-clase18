@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # Agregar app Familiarum
+    'familiarum.apps.FamiliarumConfig',
 ]
 
 MIDDLEWARE = [

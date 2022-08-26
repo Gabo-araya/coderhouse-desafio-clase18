@@ -4,7 +4,7 @@ from datetime import datetime, date, timedelta
 
 
 def buscar_personas(request, *args, **kwargs):
-    ''' Función para buscar personas '''
+    ''' Función para buscar personas. Entrega queryset con resultados o con todos los elementos.'''
 
     buscar = ''
     if request.GET.get('buscar'):
@@ -28,10 +28,8 @@ def buscar_personas(request, *args, **kwargs):
     pass
 
 
-
-
 def averigua_bisiesto(year, *args, **kwargs):
-    '''Función para calcular si un año es bisiesto o no'''
+    '''Indica si un año es bisiesto o no'''
     return year % 4 == 0 and year % 100 != 0 or year % 400 == 0
 
     # MODO DE USO
@@ -39,10 +37,8 @@ def averigua_bisiesto(year, *args, **kwargs):
     pass
 
 
-
-
 def armar_lista_fecha(fecha = datetime.now(), feriados = [], *args, **kwargs):
-    '''Función que entrega información de una fecha string ('%Y-%m-%d').'''
+    '''Entrega información de una fecha. Admite string con formato ('%Y-%m-%d').'''
     #fecha = str(fecha)
     #now = datetime.now()
     if type(fecha) == str:
