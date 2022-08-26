@@ -12,7 +12,7 @@ _Esta es una lista de los paquetes que deben estar instalados previamente:_
 	- Lenguaje de programación
 	- [Ayuda - https://docs.microsoft.com/en-us/windows/python/beginners)](https://docs.microsoft.com/en-us/windows/python/beginners)
 	- [Curso Django desde Cero en youtube](https://www.youtube.com/watch?v=vo4VF3neyrs)
-    - [Video del proyecto por Dennis Ivy](https://www.youtube.com/watch?v=llbtoQTt4qw)
+
 * Pip
 	- Gestor de instalación de paquetes PIP
 	- [Ayuda - https://tecnonucleous.com/2018/01/28/como-instalar-pip-para-python-en-windows-mac-y-linux/](https://tecnonucleous.com/2018/01/28/como-instalar-pip-para-python-en-windows-mac-y-linux/)
